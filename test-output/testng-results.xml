@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTEST" duration-ms="143" started-at="2015-04-24T14:26:03Z" finished-at="2015-04-24T14:26:03Z">
+    <groups>
+      <group name="q">
+        <method signature="Test_b.testTest_a()[pri:0, instance:Test_b@2ff5659e]" name="testTest_a" class="Test_b"/>
+      </group> <!-- q -->
+      <group name="c">
+        <method signature="Test_b.testTest_a()[pri:0, instance:Test_b@2ff5659e]" name="testTest_a" class="Test_b"/>
+      </group> <!-- c -->
+    </groups>
+    <test name="One" duration-ms="40" started-at="2015-04-24T14:26:03Z" finished-at="2015-04-24T14:26:03Z">
+      <class name="Test_a">
+        <test-method status="PASS" signature="classUp()[pri:0, instance:Test_a@5577140b]" name="classUp" is-config="true" duration-ms="11" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test_a@5577140b]" name="setUp" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTest_b()[pri:0, instance:Test_a@5577140b]" name="testTest_b" duration-ms="1" started-at="2015-04-24T17:26:03Z" description="TEST A_b" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest_b -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_a@5577140b]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test_a@5577140b]" name="setUp" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTest_c()[pri:0, instance:Test_a@5577140b]" name="testTest_c" duration-ms="1" started-at="2015-04-24T17:26:03Z" description="TEST A_c" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest_c -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_a@5577140b]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testTest_a()[pri:0, instance:Test_a@5577140b]" name="testTest_a" duration-ms="0" started-at="2015-04-24T17:26:03Z" description="TEST A_a" depends-on-methods="Test_a.testTest_c, Test_a.testTest_b" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest_a -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test_a@5577140b]" name="setUp" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AfterDawn()[pri:0, instance:Test_a@5577140b]" name="AfterDawn" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterDawn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_a@5577140b]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_a -->
+      <class name="Test_b">
+        <test-method status="PASS" signature="testTest_a()[pri:0, instance:Test_b@2ff5659e]" name="testTest_a" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest_a -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test_b@2ff5659e]" name="setUp" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_b@2ff5659e]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test_b@2ff5659e]" name="setUp" is-config="true" duration-ms="1" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTest_b()[pri:0, instance:Test_b@2ff5659e]" name="testTest_b" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest_b -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_b@2ff5659e]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test_b@2ff5659e]" name="setUp" is-config="true" duration-ms="1" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTest_c()[pri:0, instance:Test_b@2ff5659e]" name="testTest_c" duration-ms="0" depends-on-groups="q" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest_c -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_b@2ff5659e]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-04-24T17:26:03Z" finished-at="2015-04-24T17:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_b -->
+    </test> <!-- One -->
+    <test name="Two" duration-ms="1" started-at="2015-04-24T14:26:03Z" finished-at="2015-04-24T14:26:03Z">
+    </test> <!-- Two -->
+  </suite> <!-- MyTEST -->
+</testng-results>
